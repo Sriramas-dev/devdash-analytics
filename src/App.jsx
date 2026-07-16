@@ -1,11 +1,11 @@
 import { useState, useCallback } from 'react';
-import Logo from './components/logo.jsx';
-import SearchBar from './components/SearchBar.jsx';
-import ProfileCard from './components/ProfileCard.jsx';
-import StatCard from './components/StatCard.jsx';
-import RepoCard from './components/RepoCard.jsx';
-import EmptyState from './components/defaultUserList.jsx';
-import { CommitChart, LanguageChart, TopReposChart } from './components/Charts.jsx';
+import Logo from "./components/Logo.jsx";
+import SearchBar from "./components/SearchBar.jsx";
+import ProfileCard from "./components/ProfileCard.jsx";
+import StatCard from "./components/StatCard.jsx";
+import RepoCard from "./components/RepoCard.jsx";
+import EmptyState from "./components/defaultUserList.jsx";
+import { CommitChart, LanguageChart, TopReposChart } from "./components/Charts.jsx";
 import {
   loadDashboard,
   processLanguages,
